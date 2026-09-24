@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Tæt på DK</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +17,7 @@
     </header>
     <main>
         <section class="mainImg">
-            <img src="heroIMG.jpg" alt="">
+            <img src="images/heroIMG.jpg" alt="">
             <div class="mainText">
                 <p>FERIER OG OPLEVELSER I DANMARK</p>
                 <h2>Store oplevelser<br>tæt på</h2>
@@ -28,11 +27,69 @@
         </section>
         <section class="experiences">
             <div class="experiencesHeader">
+                <p>Udvalgte oplevelser</p>
+                <h2>Eventyr der venter på jer...</h2>
             </div>
-            <div class="cards">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+            <div class="carousel">
+                <button class="carouselButton" id="previous">←</button>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/naturtur.jpg" alt="Naturtur">
+                        <div class="cardText">
+                            <h3>Naturtur</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Silkeborg, Silkeborg</p>
+                            </div>
+                            <p class="cardDescription" data-text="naturtur"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/badeland.jpg" alt="Badeland">
+                        <div class="cardText">
+                            <h3>Badeland</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Billund, Billund</p>
+                            </div>
+                            <p class="cardDescription" data-text="badeland"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/sheltertur.jpg" alt="Sheltertur">
+                        <div class="cardText">
+                            <h3>Sheltertur</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Mjels, Nordborg</p>
+                            </div>
+                            <p class="cardDescription" data-text="sheltertur"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/sommerhus.jpg" alt="Sommerhus">
+                        <div class="cardText">
+                            <h3>Sommerhus</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Blåvand, Varde</p>
+                            </div>
+                            <p class="cardDescription" data-text="sommerhus"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/strandtur.jpg" alt="Strandtur">
+                        <div class="cardText">
+                            <h3>Strandtur</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Løkken, Hjørring</p>
+                            </div>
+                            <p class="cardDescription" data-text="strandtur"></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carouselButton" id="next">→</button>
             </div>
         </section>
         <section class="information">
@@ -44,5 +101,6 @@
     </main>
     <footer class="footer">
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
