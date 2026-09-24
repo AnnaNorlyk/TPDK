@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -243,4 +245,69 @@ body {
 .footer {
     height: 210px;
     background-color: #80bd78;
+}
+
+.about,
+.inspiration {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    font-family: "Crimson Text", serif;
+}
+
+.about img,
+.inspiration img {
+    width: 34%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informationText {
+    padding: 25px 30px;
+}
+
+.informationText h2 {
+    margin-bottom: 12px;
+    font-size: 42px;
+}
+
+.informationText p {
+    max-width: 390px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.informationButton {
+    position: absolute;
+    right: 45px;
+    bottom: 30px;
+    padding: 14px 22px;
+    border-radius: 10px;
+    background-color: #548d59;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer {
+    padding: 40px 55px;
+}
+
+.footer > p {
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLinks a {
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
 }

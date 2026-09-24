@@ -1,9 +1,11 @@
 {
     "cards": {
         "naturtur": "Oplev den danske natur og tag hele familien med på eventyr.",
-        "badeland": "Oplev det sjove vandland med masser af aktiviteter for hele familien.",
+        "badeland": "Sjov, leg og vandaktiviteter for både store og små.",
         "sheltertur": "Tag på sheltertur og oplev naturen helt tæt på sammen med familien.",
-        "sommerhus": "Tag hele familien med på en hyggelig ferie i sommerhus.",
-        "strandtur": "Nyd en hyggelig dag ved stranden sammen med hele familien."
+        "sommerhus": "Nyd nogle rolige dage sammen i et hyggeligt dansk sommerhus.",
+        "strandtur": "Nyd en hyggelig dag ved stranden sammen med hele familien.",
+        "about": "Læs mere om Tæt på DK og tankerne bag siden. Vi samler inspiration til oplevelser og ferier tæt på i Danmark.",
+        "inspiration": "Find inspiration til nye oplevelser, udflugter og steder at besøge sammen med familien i Danmark."
     }
 }
