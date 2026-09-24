@@ -13,6 +13,28 @@ body {
     background-color: #8bc77b;
 }
 
+.navigation {
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation h1 {
+    font-size: 30px;
+}
+
+.navigation nav {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 .mainImg {
     height: 535px;
     background-color: #f5f1d9;
