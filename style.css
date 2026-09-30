@@ -1,16 +1,3 @@
-nav{
-    background-color: #8bc77b;}
-
-img{
-    max-inline-size:50%;}
-
-section {
-    background-color: #f5f1d9;
-}
-
-body {
-    background-color:  #bdcfa8;
-  
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 * {
@@ -24,8 +11,13 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+nav {
+    background-color: #8bc77b;
 }
-    
+
+section {
+    background-color: #f5f1d9;
+}
 
 .navigation {
     padding: 0 8%;
