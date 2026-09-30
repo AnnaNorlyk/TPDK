@@ -1,39 +1,124 @@
 <!DOCTYPE html>
 <html lang="da">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tæt på DK</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header class="navigation">
+        <h1>Tæt på DK</h1>
+        <nav>
+            <a href="#">Oplevelser</a>
+            <a href="#">Transport</a>
+            <a href="#">Om os</a>
+        </nav>
     </header>
     <main>
         <section class="mainImg">
+            <img src="images/heroIMG.jpg" alt="">
+            <div class="mainText">
+                <p>FERIER OG OPLEVELSER I DANMARK</p>
+                <h2>Store oplevelser<br>tæt på</h2>
+                <h3>Eventyr for hele familien -<br>Lige her i Danmark</h3>
+                <button>Bliv inspireret →</button>
+            </div>
         </section>
-
         <section class="experiences">
             <div class="experiencesHeader">
+                <p>Udvalgte oplevelser</p>
+                <h2>Eventyr der venter på jer...</h2>
             </div>
-            <div class="cards">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+            <div class="carousel">
+                <button class="carouselButton" id="previous">←</button>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/naturtur.jpg" alt="Naturtur">
+                        <div class="cardText">
+                            <h3>Naturtur</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Silkeborg, Silkeborg</p>
+                            </div>
+                            <p class="cardDescription" data-text="naturtur"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/badeland.jpg" alt="Badeland">
+                        <div class="cardText">
+                            <h3>Badeland</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Billund, Billund</p>
+                            </div>
+                            <p class="cardDescription" data-text="badeland"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/sheltertur.jpg" alt="Sheltertur">
+                        <div class="cardText">
+                            <h3>Sheltertur</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Mjels, Nordborg</p>
+                            </div>
+                            <p class="cardDescription" data-text="sheltertur"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/sommerhus.jpg" alt="Sommerhus">
+                        <div class="cardText">
+                            <h3>Sommerhus</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Blåvand, Varde</p>
+                            </div>
+                            <p class="cardDescription" data-text="sommerhus"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/strandtur.jpg" alt="Strandtur">
+                        <div class="cardText">
+                            <h3>Strandtur</h3>
+                            <div class="cardLocation">
+                                <span>📍</span>
+                                <p>Løkken, Hjørring</p>
+                            </div>
+                            <p class="cardDescription" data-text="strandtur"></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carouselButton" id="next">→</button>
             </div>
         </section>
-
         <section class="information">
             <div class="about">
+                <img src="images/about.jpg" alt="Om os">
+                <div class="informationText">
+                    <h2>Om os</h2>
+                    <p data-text="about"></p>
+                </div>
+                <a href="#" class="informationButton">Læs mere →</a>
             </div>
             <div class="inspiration">
+                <img src="images/inspiration.jpg" alt="Inspiration">
+                <div class="informationText">
+                    <h2>Inspiration</h2>
+                    <p data-text="inspiration"></p>
+                </div>
+                <a href="#" class="informationButton">Udforsk →</a>
             </div>
         </section>
     </main>
-
     <footer class="footer">
+        <p>Kontakt:</p>
+        <div class="contactLinks">
+            <a href="mailto:testmail@gmail.com" target="_blank">testmail@gmail.com</a>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="tel:+4512345678" target="_blank">+45 1234 5678</a>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
