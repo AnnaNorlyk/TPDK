@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f1d9;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    background-color: #8bc77b;
+}
+
+section {
+    background-color: #f5f1d9;
+}
+
+.footer {
+    height: 210px;
+    padding: 40px 55px;
+    background-color: #80bd78;
+}
